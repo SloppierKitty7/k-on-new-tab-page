@@ -12,6 +12,10 @@ a fork of https://github.com/gokoururi/homepage
 # Customizing
 to change the theme one up notepad and dont ctral+h and then type "azusa" for find what and for replace with type the name of you your character and then replace all 
 
+also the name and links can be changed in the tab.html file if you need help with this ask me on subreddit 
+https://www.reddit.com/r/k_on/comments/3brown/kon_new_tab_page_release/
+
+
 list of theme
 * azusa-dark
 * azusa-light
