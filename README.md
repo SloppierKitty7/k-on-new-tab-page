@@ -13,16 +13,16 @@ a fork of https://github.com/gokoururi/homepage
 to change the theme one up notepad and dont ctral+h and then type "azusa" for find what and for replace with type the name of you your character and then replace all 
 
 list of theme
-	* azusa-dark
-	* azusa-light
-	* mio-dark
-	* mio-light
-	* mugi-dark
-	* mugi-light
-	* ritsu-dark
-	* ritsu-light
-	* yui-dark
-	* yui-light
+* azusa-dark
+* azusa-light
+* mio-dark
+* mio-light
+* mugi-dark
+* mugi-light
+* ritsu-dark
+* ritsu-light
+* yui-dark
+* yui-light
 
 # how to install
 
