@@ -26,4 +26,4 @@ list of theme
 
 # how to install
 
-make a folder in "C:\Users\your_name" name it tab_page and put the files in to it then open up chrome and go to seting then extensions you will need to enable developer mode next click load unpacked extension and look for th tab_page folder and hit ok you should see a new extnsion name "K-on New tab" new open a new tab and it should work 
+make a folder in "C:\Users\your_name" name it tab_page and put the files in to it then open up chrome and go to seting then extensions you will need to enable developer mode next click load unpacked extension and look for th tab_page folder and hit ok you should see a new extension name "K-on New tab" new open a new tab and it should work 
