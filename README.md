@@ -16,20 +16,25 @@ Open the "tab.html" file in your editor of choice. In this document, you can cha
 
 To change the K-On displayed, hit Ctrl+F or Ctrl+H, type in "azusa-light" in the first box, and the K-On of your choice followed by a hyphen and either "light" or "dark" depending on the theme you want, then hit replace all. For example, if you want to change it to the light Yui theme, you would do, Ctrl+F or Ctrl+H, type in "azusa-light", type in "yui-light", and hit Replace All.
 
-Now you'll notice there is a block of text that contains several orangish-yellowish words. Don't do anything to that block, but look just below it. There's a tag labeled <!--Edit Inks--> on line 34 . Everything inside that tag is where you edit any links. A link looks like this:
+Now you'll notice there is a block of text that contains several orangish-yellowish words. Don't do anything to that block, but look just below it. There's a tag labeled <!--Edit links--> on line 34 . Everything inside that tag is where you edit any links. A link looks like this:
+```javascript
 <a href="https://www.youtube.com">YouTube</a>
+```
 All the links in this file are contained within lists. So in the file, the above link would appear as:
+```javascript
 <li class="button button_grey"><a href="https://www.youtube.com">YouTube</a></li>
-
+```
 We just need to pay attention to the link part, though. The bit inside the quotation marks after 'href=' is the URL of the website you're linking to. Visit whatever website you want to link, copy the URL, and paste it into those quotation marks. Then, the part in the above link that just says 'YouTube' and is sandwiched between a greater than and lesser than sign (>YouTube</a>) is what text will display. You can change that to whatever you want.
 So for instance, let's say I wanted to change the above YouTube link to link to, say, /r/magicTCG. Well, first, we'd
 
 change the link, so it'd look like this:
-<a href="https://www.reddit.com/r/magicTCG">YouTube</a>
-
+```javascript
+(<a href="https://www.reddit.com/r/magicTCG">YouTube</a>
+```
 This still looks like it links to YouTube, though, even though it links to the Magic subreddit. Well, let's look at the next step to fix that.
-
+```javascript
 <a href="https://www.reddit.com/r/magicTCG">Magic: the Subredditing</a>
+```
 Now our link will display as "Magic: the Subredditing". Neat, huh?
 
 For this next part, you can again use the Ctrl+F function. In the first text box, type in "SloppierKitty7", and in the second, type in whatever you want the page to call you. I chose my name, but seeing as my name is "SloppierKitty7" I will use the name "Yui" in the second text box. When we hit Replace All, it should replace "SloppierKitty7" with "Yui", and now when we open a new tab, we'll see the phrase, "Welcome to the Internet, Yui"
